@@ -15,6 +15,17 @@ body {
     font-size: 16px;
 }
 
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+    font-family: 'Zilla Slab', 'Robot', serif;
+}
+
+h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 200;
+}
+ 
 /* ----------------------------------------- /Set Defaults ----------------------------------------- */
 /* ----------------------------------------- Header and Customising Bootstrap Navbar ----------------------------------------- */
     
@@ -53,6 +64,48 @@ ul.list-inline li i {
 }
 
 /* -----------------------------------------  /Header and Customising Bootstrap Navbar ----------------------------------------- */
+/* -----------------------------------------  About Section ----------------------------------------- */
+
+/* Style Jumbotron */
+
+.jumbotron{
+    margin: 2vh 15vw 0vh;
+}
+
+/* Style divs and images */
+div .our-story {
+    width: 100%;
+    height: auto;
+}
+
+div .our-story-pic {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+div .our-ingrdients{
+    width: 100%;
+    height: auto;
+}
+
+div .our-ingrdients-pic{
+    width: 100%;
+    height: auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: inherit;
+}
+
+/* .story-first-row, .story-second-row {
+    width: 100%;
+    height: auto;
+} */ 
+
+
+/* -----------------------------------------  /About Section ----------------------------------------- */
 
 
 
