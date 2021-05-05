@@ -66,47 +66,37 @@ ul.list-inline li i {
 /* -----------------------------------------  /Header and Customising Bootstrap Navbar ----------------------------------------- */
 /* -----------------------------------------  About Section ----------------------------------------- */
 
-/* Style Jumbotron */
-
-.jumbotron{
-    margin: 2vh 15vw 0vh;
-}
-
-/* Style divs and images */
-div .our-story {
-    width: 100%;
-    height: auto;
-}
-
-div .our-story-pic {
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-}
-
-div .our-ingrdients{
-    width: 100%;
-    height: auto;
-}
-
-div .our-ingrdients-pic{
-    width: 100%;
-    height: auto;
-}
-
 .img-fluid {
   max-width: 100%;
   height: inherit;
+}  
+
+.our-story,
+.our-story-pic,
+.our-ingrdients,
+.our-ingrdients-pic {
+    border: 2px solid black;
 }
 
-/* .story-first-row, .story-second-row {
-    width: 100%;
-    height: auto;
-} */ 
+.story-first-row h2 {
+    padding: 10px;
+}
 
+.story-second-row h2 {
+    padding: 10px;
+}
+
+.story-first-row p {
+    padding: 8px 50px;
+    text-align: left;
+}
+
+.story-second-row p {
+    padding: 8px 50px;
+    text-align: left;
+}
 
 /* -----------------------------------------  /About Section ----------------------------------------- */
-
 
 
 /* -----------------------------------------  Media Queries ----------------------------------------- */
