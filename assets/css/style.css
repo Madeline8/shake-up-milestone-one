@@ -66,6 +66,7 @@ ul.list-inline li i {
 /* -----------------------------------------  /Header and Customising Bootstrap Navbar ----------------------------------------- */
 /* -----------------------------------------  About Section ----------------------------------------- */
 
+
 .img-fluid {
   max-width: 100%;
   height: inherit;
@@ -96,9 +97,57 @@ ul.list-inline li i {
     text-align: left;
 }
 
+/* .story-picture {
+    flex: 100%;
+    display: flex;
+} */
+
+
+
 /* -----------------------------------------  /About Section ----------------------------------------- */
+/* -----------------------------------------  Menu Section ----------------------------------------- */
+
+/* Temporary styling to make it easier - to be deleted once the section has been completed */
+.menu-heading {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 40px 0;
+    padding: 10px;
+}
+
+.outer-row-menu {
+    border: 2px solid black;
+}
+
+.main-column {
+    border: 2px solid red;
+    margin: 5px;
+}
+
+.first-row-menu,
+.second-column-menu,
+.third-column-menu {
+    border: 2px solid green;
+}
+
+.col-breakfast,
+.col-breakfast-pic {
+    border: 3px solid yellow;
+}
+
+.col-lunch,
+.col-lunch-pic {
+    border: 3px solid yellow;
+}
+
+.col-allday,
+.col-allday-pic {
+    border: 3px solid yellow;
+}
 
 
+/* -----------------------------------------  Menu Section ----------------------------------------- */
 /* -----------------------------------------  Media Queries ----------------------------------------- */
 
 /* Small devices (mobile phones) */
