@@ -4,10 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- Place your stylesheet here-->
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+        <!-- Place your stylesheet here-->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
         <!-- Other CSS / styling -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -135,7 +137,7 @@
         <!-- /About  -->
         <!-- Menu  -->
         <section id="menu-section">
-            <h2 class="menu-heading">Our Menu</h2>
+            <h2 class="section-heading">Our Menu</h2>
                 <div class="container menu-container">
                     <div class="outer-row-menu row justify-content-center">
                         <div class="main-column col">
@@ -326,18 +328,70 @@
         <!-- /Menu  -->
         <!-- Insta  -->
         <section id="insta-section">
-            <h2 class="menu-heading">Instagram</h2>
+            <div class="container">
+                <h2 class="section-heading">Instagram</h2>
+                <div class="row mb-4">
+                    <div class="col-lg-4">
+                        <a href="assets/images/insta/sq-orange-shake.jpg" data-toggle="lightbox" data-gallery="insta-gallery" >
+                            <img class="img-fluid insta" src="assets/images/insta/sq-orange-shake.jpg" alt="Coffe shake">
+                        </a>
+                    </div> 
+                    
+                    <div class="col-lg-4">
+                        <a href="assets/images/insta/sq-banana-shake.jpg" data-toggle="lightbox" data-gallery="insta-gallery">
+                            <img class="img-fluid insta" src="assets/images/insta/sq-banana-shake.jpg" alt="Banana shake.">
+                        </a>
+                    </div> 
+                    <div class="col-lg-4">
+                        <a href="assets/images/insta/mango-pear-shake.jpg" data-toggle="lightbox" data-gallery="insta-gallery" >
+                            <img class="img-fluid insta" src="assets/images/insta/mango-pear-shake.jpg" alt="Mango pear shake.">
+                        </a>
+                    </div> 
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-4">
+                        <a href="assets/images/insta/menu-strawberry-kiwi-shake.jpg" data-toggle="lightbox" data-gallery="insta-gallery">
+                            <img class="img-fluid insta" src="assets/images/insta/menu-strawberry-kiwi-shake.jpg" alt="Strawberry kiwi shake.">
+                        </a>
+                    </div>           
+                              
+                    <div class="col-lg-4">
+                        <a href="assets/images/insta/shake-cafe-interior2.jpg" data-toggle="lightbox" data-gallery="insta-gallery">
+                            <img class="img-fluid insta" src="assets/images/insta/shake-cafe-interior2.jpg" alt="Shake cafe interior.">
+                        </a>
+                    </div>
 
+                    <div class="col-lg-4">
+                        <a href="assets/images/insta/menu-blueberry-passion-fruit.jpg" data-toggle="lightbox" data-gallery="insta-gallery">
+                            <img class="img-fluid insta" src="assets/images/insta/menu-blueberry-passion-fruit.jpg" alt="Blueberry passion fruit shake.">
+                        </a>
+                    </div>
+                </div>
+                <div id="insta-buttons">
+                    <span class="load-btn"></span>   
+
+                    <span class="follow">
+                        <a class="follow-btn btn btn-primary" target="_blank" href="https://www.instagram.com/" role="button">Follow us on Instagram</a>      
+                    </span>
+
+                </div>
+            </div>
         </section>
+     <!--/Insta  -->
 
-
-
-
-
-        <!--/Insta  -->
-
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+        <!-- Lightbox -->
+    <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+        <!-- /Lightbox -->
+</body>
 </html>
+

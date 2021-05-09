@@ -107,10 +107,9 @@ ul.list-inline li i {
 /* -----------------------------------------  /Header and Customising Bootstrap Navbar ----------------------------------------- */
 /* -----------------------------------------  About Section ----------------------------------------- */
 
-.img-fluid {
+/* .img-fluid {
   max-width: 100%;
-  height: inherit;
-}  
+}   */
 
 .our-story,
 .our-story-pic,
@@ -140,7 +139,7 @@ ul.list-inline li i {
 /* -----------------------------------------  /About Section ----------------------------------------- */
 /* -----------------------------------------  Menu Section ----------------------------------------- */
 
-.menu-heading {
+.section-heading {
     font-size: 2rem;
     text-align: center;
     font-weight: 500;
@@ -181,6 +180,31 @@ ul.list-inline li i {
 
 
 /* -----------------------------------------  Menu Section ----------------------------------------- */
+/* -----------------------------------------  Insta Section ----------------------------------------- */
+
+#insta-section {
+    padding: 5px 0px;
+}
+
+.insta {
+    height: 350px;;
+    width: 350px;
+    margin-top: 1px;
+    
+}
+
+/* Insta button - adjustments to Bootstrap button with CSS*/
+#insta-buttons {
+    text-align: center;
+}
+
+.follow-btn {
+    color: #fff;
+    background: #167709;
+    border-color: #167709;
+}
+
+/* -----------------------------------------  /Insta Section ----------------------------------------- */
 /* -----------------------------------------  Media Queries ----------------------------------------- */
 
 /* Small devices (mobile phones) */
