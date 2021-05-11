@@ -211,11 +211,17 @@ ul.list-inline li i {
     padding: 5px 0px;
 }
 
+.col-testimonials {
+    margin: 0 0 0 50%;
+}
+
 .card {
+    position: relative;
     width: 18rem;
     text-align: center;
-    margin-top: 3px;
+    margin-top: 3px 0 0 30px;
     border: none;
+    margin: 0 0 0 5em;
 }
 
 .card-text {
@@ -232,7 +238,21 @@ ul.list-inline li i {
     color: #167709;
 }
 
+.carousel-indicators li {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 5px 0px 0px 12px;
+    color:#000;
+    background-color: #333;
+    position: relative;
+}
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color:#C8C6C6;
+}
 
 /* -----------------------------------------  /Testimonials Section ----------------------------------------- */
 /* -----------------------------------------  Media Queries ----------------------------------------- */
