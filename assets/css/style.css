@@ -30,16 +30,7 @@ body {
     font-size: 16px;
 }
 
-/* .container {
-    width: 100%;
-    padding-right: 2px;
-    padding-left: 2px;
-    margin-right: auto;
-    margin-left: auto;
-} */
-
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    /* width: 100%; */
     padding-right: 0px;
     padding-left: 15px;
     margin-right: auto;
@@ -69,14 +60,6 @@ p {
  
 /* ----------------------------------------- /Set Defaults ----------------------------------------- */
 /* ----------------------------------------- Header and Customising Bootstrap Navbar ----------------------------------------- */
-    
-/* header #top {
-    background-color: rgba(00, 00, 00, 0.04);
-    position: relative;
-    z-index: 9998;
-    width: 100%;
-    margin:0;
-} */
 
 .brand-logo {
     margin: 0;
@@ -106,10 +89,6 @@ ul.list-inline li i {
 
 /* -----------------------------------------  /Header and Customising Bootstrap Navbar ----------------------------------------- */
 /* -----------------------------------------  About Section ----------------------------------------- */
-
-/* .img-fluid {
-  max-width: 100%;
-}   */
 
 .our-story,
 .our-story-pic,
@@ -255,13 +234,42 @@ ul.list-inline li i {
 }
 
 /* -----------------------------------------  /Testimonials Section ----------------------------------------- */
+/* -----------------------------------------  Offers Section ----------------------------------------- */
+
+.offer h6 {
+    margin-top: 10px;
+    color: #167709;
+    font-weight: 400;
+}
+
+.offer {
+    text-align: center;
+}
+
+#link-to-more-offers {
+    margin-top: 8px;
+}
+
+#link-to-more-offers a {
+    color: #167709;
+    text-decoration: none;
+}
+
+.offers-image {
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* -----------------------------------------  /Offers Section ----------------------------------------- */
+
 /* -----------------------------------------  Media Queries ----------------------------------------- */
 
-/* Small devices (mobile phones) */
+@media (max-width: 991.98px) {
 
-/* Medium devices (tablets) */
-
-
-/* Large devices (desktops) */
+    /* Offers */
+    #student-nhs-discount-image {
+        margin-top: 8px;
+    }
+}
 
 /* -----------------------------------------  /Media Queries ----------------------------------------- */
