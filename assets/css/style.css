@@ -177,10 +177,18 @@ ul.list-inline li i {
     text-align: center;
 }
 
-.follow-btn {
+.btn:hover {
     color: #fff;
     background: #167709;
     border-color: #167709;
+    font-weight: 500;
+}
+
+.btn {
+    color: #167709;
+    border: 2px solid #167709;
+    border-radius: 15px;
+    font-weight: 500;
 }
 
 /* -----------------------------------------  /Insta Section ----------------------------------------- */
@@ -261,7 +269,32 @@ ul.list-inline li i {
 }
 
 /* -----------------------------------------  /Offers Section ----------------------------------------- */
+/* -----------------------------------------  Contact Section ----------------------------------------- */
+.contact-form-send {
+    color: #fff;
+    background: #167709;
+    border-color: #167709;
+}
 
+.image-contact {
+    opacity: 0.5;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.paragraph-contact-background {
+position: absolute;
+  bottom: 10px;
+  right: 13px;
+}
+
+/* -----------------------------------------  /Contact Section ----------------------------------------- */
 /* -----------------------------------------  Media Queries ----------------------------------------- */
 
 @media (max-width: 991.98px) {
