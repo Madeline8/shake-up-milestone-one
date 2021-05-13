@@ -37,7 +37,7 @@ body {
     margin-left: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 { 
     text-transform: uppercase;
     font-family: 'Zilla Slab', 'Roboto', serif;
 }
@@ -56,6 +56,28 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
     font-family: 'Zilla Slab', 'Roboto', 'sans-serif';
+}
+
+/* Style page navigation */
+.arrow-container {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.arrow-container i {
+    font-size: 30px;
+}
+
+.arrow-top {
+    color: #167709;
+    border: 2px solid #167709;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.arrow-top:hover{
+    text-decoration: none;
+    color: #167709;
 }
  
 /* ----------------------------------------- /Set Defaults ----------------------------------------- */
@@ -271,10 +293,6 @@ ul.list-inline li i {
 /* -----------------------------------------  /Offers Section ----------------------------------------- */
 /* -----------------------------------------  Contact Section ----------------------------------------- */
 
-.contact-container {
-
-}
-
 .contact-form-send {
     color: #fff;
     background: #167709;
@@ -308,7 +326,6 @@ ul.list-inline li i {
     -webkit-box-shadow: 0 0 0 0.1rem rgba(22, 119, 9, .25);
     box-shadow: 0 0 0 0.2rem rgba(22, 119, 9, .25);
     }
-
 
 /* -----------------------------------------  /Contact Section ----------------------------------------- */
 /* -----------------------------------------  Media Queries ----------------------------------------- */
