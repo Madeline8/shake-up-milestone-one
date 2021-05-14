@@ -58,6 +58,10 @@ p {
     font-family: 'Zilla Slab', 'Roboto', 'sans-serif';
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 /* Style page navigation */
 .arrow-container {
     text-align: center;
@@ -175,8 +179,14 @@ ul.list-inline li i {
     height: 100px;
 }
 
-.menu-section-download {
+.menu-download {
     margin-left: 8rem;
+}
+
+.menu-download i {
+    font-size: 20px;
+    color: #167709;
+    padding-left: 3px;
 }
 
 
@@ -328,6 +338,49 @@ ul.list-inline li i {
     }
 
 /* -----------------------------------------  /Contact Section ----------------------------------------- */
+/* -----------------------------------------  Footer ----------------------------------------- */
+    .menu-download-footer i {
+        font-size: 20px;
+        color: #167709;
+        padding-left: 3px;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+
+    .menu-download-footer i:hover {
+        color: #3F0005;
+    }
+
+    .social-links {
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+
+    .social-links li a i {
+        width: 25px;
+        font-size: 18px;     
+        padding: 10px 0;
+        text-align: center;
+        color: #167709;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+
+    .social-links li a i:hover {
+        color: #3F0005;
+    }
+
+    #footer-info {
+        padding: 20px;
+    }
+
+    
+
+/* -----------------------------------------  /Footer ----------------------------------------- */
 /* -----------------------------------------  Media Queries ----------------------------------------- */
 
 @media (max-width: 991.98px) {
@@ -341,6 +394,19 @@ ul.list-inline li i {
     .form-control{
         margin-top: 12px;
     }
+
+    /* footer */
+    .social-links {
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+
+    #footer-info {
+        padding: 5px;
+    }
+
+    .social-links li a i {
+        padding: 3px 0;
 
 }
 
