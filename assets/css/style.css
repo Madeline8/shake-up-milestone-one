@@ -18,44 +18,41 @@
 
 html {
     font-family: 'Zilla Slab', 'Roboto', sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-    width: 100%;
 }
 
 body {
-    font-family: 'Zilla Slab', 'Roboto', serif;
-    color: #1a1a1a;
+    color: #3c3939;
     font-size: 16px;
+    font-family: 'Zilla Slab', 'Roboto', sans-serif;
+    
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    /* padding-right: 0px; */
-    padding-left: 15px;
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     margin-right: auto;
     margin-left: auto;
-}
+    padding-left: 15px;
+    
+} */
 
 h1, h2, h3, h4, h5, h6 { 
-    text-transform: uppercase;
-    font-family: 'Zilla Slab', 'Roboto', serif;
+    font-family: 'Zilla Slab', 'Roboto', sans-serif;
+    text-transform: uppercase;    
 }
 
 h2 {
-    font-size: 1.2rem;
-    text-align: center;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 400;  
 }
 
 .h5, h5 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: 1rem;
     font-family: 'Zilla Slab', 'Roboto', 'sans-serif';
+    margin-top: 0;
+    margin-bottom: 1rem;  
 }
 
 .inline-block {
@@ -64,8 +61,8 @@ p {
 
 /* Style page navigation */
 .arrow-container {
-    text-align: center;
     margin-top: 3rem;
+    text-align: center;
 }
 
 .arrow-container i {
@@ -73,78 +70,172 @@ p {
 }
 
 .arrow-top {
-    color: #167709;
     border: 2px solid #167709;
     border-radius: 15px;
+    color: #167709;
     font-weight: 500;
 }
 
 .arrow-top:hover{
-    text-decoration: none;
     color: #167709;
+    text-decoration: none;
 }
  
 /* ----------------------------------------- /Set Defaults ----------------------------------------- */
 /* ----------------------------------------- Header and Customising Bootstrap Navbar ----------------------------------------- */
 
-.brand-logo {
+header {
     margin: 0;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    border: 4px solid white;
+}
+
+.navbar {
+    background-color: #fcf5f6; 
+}
+
+.brand-logo {
+    border-radius: 110px;
+    border: 4px solid #3F0005;
+    margin: 0;
+    width: 110px;
+    height: 110px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 /* Nav Menu */
+
+.brand-logo, 
+#nav-menu,
+#social-links-header {
+    line-height: 75px;
+}
+
 .nav-text {
     text-align: center;
 }
 
-ul.nav-text a {
-    color: #1a1a1a;
+#nav-menu {
+    font-size: 110%;
+    letter-spacing: 2.5px;
 }
 
-ul.list-inline li {
+#nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-link {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+#nav-menu a:hover {  
+    border-bottom: 1px solid #3F0005;
+}
+
+.list-inline li {
     display: inline-block;
 }
 
-ul.list-inline li i {
-    color: #1a1a1a;
-    padding: 3px;
-}
+.list-inline a i {
+    color: #167709;
+        width: 25px;
+        font-size: 18px;    
+        padding: 5px 0;
+        text-align: center;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+
+    .list-inline a i:hover {
+        color: #3F0005;
+    }
+
+    .active {
+        border-bottom: 1px solid #3F0005;
+    }
 
 /* -----------------------------------------  /Header and Customising Bootstrap Navbar ----------------------------------------- */
 /* -----------------------------------------  About Section ----------------------------------------- */
 
-.our-story,
+/* .our-story,
 .our-story-pic,
 .our-ingrdients,
 .our-ingrdients-pic {
-    border: 2px solid black;
+    border: 1px solid black;
+} */
+
+.about-container h2 {
+    font-size: 1.7rem;
+    padding-bottom: 5px;
+    padding-bottom: 15px;
+    margin: 5px;
+    text-align: center;
 }
 
-.story-first-row h2 {
-    padding: 10px;
-}
-
-.story-second-row h2 {
-    padding: 10px;
-}
-
-.story-first-row p {
-    padding: 8px 50px;
+.about-container p {
+    padding: 0px 12px;
     text-align: left;
 }
 
-.story-second-row p {
-    padding: 8px 50px;
-    text-align: left;
+.story-first-row {
+    vertical-align: middle;
 }
+
+.story-image {
+    width: 100%;
+    background-repeat: repeat-x;
+}
+
+.our-story {
+    position: relative;
+    max-width: 700px;
+    height: 700px;
+}
+
+.our-story .story-background-content {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    background: rgba(20, 71, 13, 0.7);
+    color: #fcf5f6;
+    width: 100%;
+    padding: 20px;
+    line-height: 2;   
+}
+
+.our-ingrdients {
+    background-color: #fcf5f6;
+    bottom: 0;
+    top: 0;
+    background: rgba(20, 71, 13, 0.8);
+    color: #fcf5f6;
+    width: 100%;
+    padding: 20px 20px;
+    line-height: 2;
+}
+
+.our-ingrdients p {
+    padding: 0 30px;
+}
+
+
+
+
+
 
 /* -----------------------------------------  /About Section ----------------------------------------- */
 /* -----------------------------------------  Menu Section ----------------------------------------- */
 
-.section-heading {
+/* .section-heading {
     font-size: 2rem;
     text-align: center;
     font-weight: 500;
@@ -187,13 +278,13 @@ ul.list-inline li i {
     font-size: 20px;
     color: #167709;
     padding-left: 3px;
-}
+} */
 
 
 /* -----------------------------------------  Menu Section ----------------------------------------- */
-/* -----------------------------------------  Insta Section ----------------------------------------- */
+/* -----------------------------------------  Gallery Section ----------------------------------------- */
 
-#insta-section {
+#gallery-section {
     padding: 5px 0px;
 }
 
@@ -204,7 +295,7 @@ ul.list-inline li i {
     
 }
 
-/* Insta button - adjustments to Bootstrap button with CSS*/
+/* Instagram button - adjustments to Bootstrap button with CSS*/
 #insta-buttons {
     text-align: center;
 }
@@ -223,10 +314,10 @@ ul.list-inline li i {
     font-weight: 500;
 }
 
-/* -----------------------------------------  /Insta Section ----------------------------------------- */
+/* -----------------------------------------  /Gallery Section ----------------------------------------- */
 /* -----------------------------------------  Testimonials Section ----------------------------------------- */
 
-#testimonials-section {
+/* #testimonials-section {
     padding: 5px 0px;
 }
 
@@ -271,7 +362,7 @@ ul.list-inline li i {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color:#C8C6C6;
-}
+} */
 
 /* -----------------------------------------  /Testimonials Section ----------------------------------------- */
 /* -----------------------------------------  Offers Section ----------------------------------------- */
@@ -339,6 +430,22 @@ ul.list-inline li i {
 
 /* -----------------------------------------  /Contact Section ----------------------------------------- */
 /* -----------------------------------------  Footer ----------------------------------------- */
+    
+   footer {
+       line-height: 30px;
+       background-color: #fcf5f6;
+   }
+
+    #footer-info h5 {
+        font-size: 110%;
+        font-weight: 500;
+    }
+
+    #footer-info p {
+        font-size: 110%;
+        font-weight: 400;
+    }
+
     .menu-download-footer i {
         font-size: 18px;
         color: #167709;
@@ -352,11 +459,6 @@ ul.list-inline li i {
     .menu-download-footer i:hover {
         color: #3F0005;
     }
-
-    /* .social-links {
-        padding-bottom: 10px;
-        padding-top: 10px;
-    } */
 
     .social-links li a i {
         width: 25px;
@@ -392,6 +494,12 @@ ul.list-inline li i {
         color: #3F0005;
     }
 
+    .active {
+        border-bottom: 1px solid #3F0005;
+    } */
+
+
+
 /* -----------------------------------------  /Footer ----------------------------------------- */
 /* -----------------------------------------  Media Queries ----------------------------------------- */
 
@@ -418,4 +526,30 @@ ul.list-inline li i {
 
     .social-links li a i {
         padding: 3px 0;
+    }
+
+    @media (max-width: 1199.98px) {
+
+    #nav-menu {
+    line-height: 30px;
+    }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        /* About */
+        /* to fix the text alignment in 'our story' */
+        .story-background-content h2 {
+            padding-top: 25px;
+            padding-bottom: 40px;
+        }
+
+        .story-background-content p {
+            font-size: 17px;
+            padding: 0 40px;
+            line-height: 2.4;
+        }
+
+        .our-ingrdients p {
+            font-size: 17px;
+        }
     }

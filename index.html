@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">      
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
@@ -21,122 +20,119 @@
     <body>
         <header id="top">
             <!-- Navbar -->
-            <nav class="navbar navbar-light bg-light navbar-expand-lg">
-                <a class="navbar-brand" href="#">
-                    <img class="brand-logo" src="assets/images/shake-up-logo.png" alt="brand-logo-shake-up">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <nav class="navbar navbar-light navbar-expand-xl">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="brand-logo" src="assets/images/shake-up-logo.png" alt="brand-logo-shake-up">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-text" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto" id="nav-menu">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#about-section"> About <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#menu-section" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#menu-section"> Our Menu </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"> Download Menu </a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#gallery"> Gallery </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonials">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#offers">Offers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
 
-                <div class="collapse navbar-collapse nav-text" id="navbarSupportedContent">
-
-                    <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-section">About<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#menu-section" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Menu
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#menu-section">Our Menu</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Download Menu</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#insta">Insta</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#testimonials">Testimonials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#offers">Offers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-
-                    <ul class="navbar-nav ml-auto list-inline d-inline">
-                        <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="https://facebook.com">
-                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="https://twitter.com">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="https://instagram.com">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="https://pinterest.co.uk">
-                                <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                                <span class="sr-only">Pinterest</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="https://tripadvisor.co.uk">
-                                <i class="fab fa-tripadvisor" aria-hidden="true"></i>
-                                <span class="sr-only">Tripadvisor</span>
-                            </a>
-                        </li>
-                    </ul>
+                        <ul class="navbar-nav ml-auto list-inline d-inline" id="social-links-header">
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://facebook.com">
+                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://twitter.com">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://instagram.com">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://pinterest.co.uk">
+                                    <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                                    <span class="sr-only">Pinterest</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://tripadvisor.co.uk">
+                                    <i class="fab fa-tripadvisor" aria-hidden="true"></i>
+                                    <span class="sr-only">Tripadvisor</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <!-- /.navbar -->
         </header>
         <!-- About  -->
         <section id="about">
-            <div class="container">
-                <div class="row story-first-row justify-content-center no-gutters">
-                    <div class="our-story col-12 col-lg-6 d-flex flex-column">
-                        <h2> Our Story</h2>
-                        <p> Shake-up opened in 2016 in Holborn, London. 
-
-                        <p> Our customers are very busy professionals or students, who want to eat healthy, yet they value their time! 
-                            To keep them healthy and happy, which is our main aim, we decided to open a shake bar, where you can find alternatives to your daily meals, 
-                            all squashed into one cup! :) We give your body all beneficial ingredients it needs to life your life to the fullest. </p> 
-                        <p>Since opening, we have gained 60% of our loyal customer base. Our lovely staff knows them by their names! </p> 
-                        <p>We regularly revise our menu based on customer feedback and seasonal produce. </p>                          
+            <div class="container about-container">
+                <div class="row story-first-row no-gutters">
+                    <div class="col-12 col-lg-6 our-story d-flex">
+                        <img class="story-image" src="/assets/images/shakes-story.jpeg" alt="Shakes - image.">
+                        <div class="story-background-content">
+                            <h2> Our Story </h2>
+                            <p> Shake-up opened in 2016 in Holborn, London. </p>
+                            <p> Our customers are very busy professionals or students, who want to eat healthy, yet they value their time! 
+                                To keep them healthy and happy, which is our main aim, we decided to open a shake bar, where you can find alternatives to your daily meals, 
+                                all squashed into one cup! :) We give your body all beneficial ingredients it needs to life your life to the fullest. </p> 
+                            <p> Since opening, we have gained 60% of our loyal customer base. Our lovely staff knows them by their names! </p> 
+                            <p> We regularly revise our menu based on customer feedback and seasonal produce. </p>  
+                        </div>
                     </div>
-
-                    <div class="our-story-pic col-12 col-lg-6 d-flex">
-                            <img class="story-picture img-fluid no-gutters " src="/assets/images/general-strawberry.jpg" alt="Strawberry-shake.">                                          
+                    <div class="col-12 col-lg-6 our-ingrdients-picture d-flex">
+                        <img class="story-picture img-fluid no-gutters " src="/assets/images/green-shake-served.jpeg" alt="Staff serving shake.">   
                     </div>
                 </div>
-
-                <div class="row story-second-row d-flex justify-content-center no-gutters">
-                    <div class="our-ingrdients-picture col-12 col-lg-6 d-flex">
-                        <img src="/assets/images/our-story-top-left-first.jpg" alt="Ingredients in shaker." class="img-fluid">
+                <div class="row story-second-row no-gutters">
+                    <div class="col-12 col-lg-6 our-story-pic d-flex">
+                        <img src="/assets/images/sq-british-farm.JPG" alt="British flague made of healthy ingredients." class="img-fluid">
                     </div>
-                    <div class="our-ingrdients col-lg-6 d-flex flex-column">
-                        <h2>Our Ingredients</h2>
-                        <p> Our ethos is to create revitalising, healthy, yet tasty and nutritious shakes all suitable for Vegans. 
-                            All products are made using the highest quality ingredients and keeping in mind the biological effect on the body. 
-                            We do not use artificial additives or preservatives. We also focus on wheat-free, gluten-free, non-refined sugars and good fats for 
-                            example; Coconut oil or avocado.</p> 
-                        <p> We believe in creating pioneering shakes with undeniably great tastes and textures. 
-                            Our staff is super knowleadgeable about all our ingredients - please feel free to have a chat with them and ask questions!</p> 
-
-                        <p>All our products are made fresh to order. </p>                           
-                        
+                    <div class="col-12 col-lg-6 our-ingrdients">
+                        <h2> Our Ingredients </h2>
+                        <p> Our ethos is to create revitalising, healthy, yet tasty and nutritious shakes. </p>
+                        <p>All products are made using the highest quality ingredients and keeping in mind the biological effect on the body.
+                            We believe in creating pioneering shakes with undeniably great tastes and textures. 
+                        </p> 
+                        <p> Our staff is super knowleadgeable about all our ingredients - please feel free to have a chat with them and ask questions! </p>
+                        <p> All our products are made fresh to order. </p>
                     </div>
-                </div>         
+                </div>    
             </div>
         </section>
         <!-- /About  -->
         <!-- Menu  -->
-        <section id="menu-section">
+        <!-- <section id="menu-section">
             <h2 class="section-heading">Our Menu</h2>
                 <div class="container menu-container">
                     <div class="outer-row-menu row justify-content-center">
@@ -323,11 +319,11 @@
                     </a>
                 </p>  
             </div>
-        </section>
+        </section> -->
 
         <!-- /Menu  -->
-        <!-- Insta  -->
-        <section id="insta-section">
+        <!-- Gallery  -->
+        <!-- <section id="gallery-section">
             <div class="container">
                 <h2 class="section-heading">Instagram</h2>
                 <div class="row mb-4">
@@ -376,10 +372,10 @@
 
                 </div>
             </div>
-        </section>
-        <!--/Insta  -->
+        </section> -->
+        <!--/Gallery  -->
         <!-- Testimonials  -->
-        <section id="testimonials-section">
+        <!-- <section id="testimonials-section">
             <div class="container">
                 <h2 class="section-heading">Testimonials</h2>  
                 <div class="row d-flex justify-content-center">
@@ -487,10 +483,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- /Testimonials  -->
         <!-- Offers  -->
-        <section id="offers-section">
+        <!-- <section id="offers-section">
             <div class="container">
                 <h2 class="section-heading">Offers</h2>
                 <div class="row d-flex justify-content-around">
@@ -508,10 +504,10 @@
                 </div>
         
             </div>
-        </section>
+        </section> -->
         <!-- /Offers  -->
         <!-- Contact  -->
-        <section id="contact-section">
+        <!-- <section id="contact-section">
             <div class="container contact-container">
                 <h2 class="section-heading">Contact</h2>
                 <div class="row">
@@ -553,28 +549,28 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- /Contact  -->
 
-        <a href="#story" class="arrow-top">
+        <!-- <a href="#story" class="arrow-top">
         <div class="container arrow-container">
             <p class="back-to-top"><i class="fas fa-angle-double-up"></i></p>
             <p>Back To Top</p>
         </div>
-        </a>
+        </a> -->
 
         <!-- Google Map -->
-        <section>
+        <!-- <section>
             <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.432672315527!2d-0.11553814172781482!3d51.51568636404944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b4b2794a1dd%3A0xacaca141760175c2!2sSerle%20St%2C%20London!5e0!3m2!1sen!2suk!4v1620936873629!5m2!1sen!2suk" width="100%" height="300"></iframe>       
         </div>
-        </section>
+        </section> -->
          <!-- Google Maps -->
 
 
         <!-- Footer  -->
         <section>
-            <footer class="container-fluid">
+            <footer class="container-fluid sticky-bottom">
                 <div class="row" id="footer-info">
                     <div class="col-12 col-md-4">
                         <h5>Shake Up!</h5>
