@@ -159,7 +159,7 @@ header {
         color: #C03221;
     }
 
-    .active {
+    .link-active {
         border-bottom: 1px solid #C03221;
     }
 
@@ -295,8 +295,7 @@ header {
 .insta {
     height: 300px;
     width: 350px;
-    margin-top: 1px;
-    
+    margin-top: 1px;  
 }
 
 /* Instagram button - adjustments to Bootstrap button with CSS*/
@@ -321,13 +320,14 @@ header {
 /* -----------------------------------------  /Gallery Section ----------------------------------------- */
 /* -----------------------------------------  Testimonials Section ----------------------------------------- */
 
+
 /* #testimonials-section {
     padding: 5px 0px;
-}
+} */
 
-.col-testimonials {
+/* .col-testimonials {
     margin: 0 0 0 50%;
-}
+} */
 
 .card {
     position: relative;
@@ -338,21 +338,25 @@ header {
     margin: 0 0 0 5em;
 }
 
-.card-text {
+/* .card-text {
     margin-top: 5px;
     font-size: 12px;
     font-size: 1.1rem;;
-}
+} */
 
-.blockquote {
+/* .blockquote {
     margin-top:8px;
+} */
+
+.blockquote-footer {
+    background: none;
 }
 
-.ratings i {
+/* .ratings i {
     color: #167709;
-}
+} */
 
-.carousel-indicators li {
+/* .carousel-indicators li {
     cursor: pointer;
     border-radius: 50%;
     width: 10px;
@@ -361,9 +365,9 @@ header {
     color:#000;
     background-color: #333;
     position: relative;
-}
+} */
 
-.carousel-control-prev-icon,
+/* .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color:#C8C6C6;
 } */
@@ -498,11 +502,9 @@ header {
         color: #C03221;
     }
 
-    .active {
+    .link-active {
         border-bottom: 1px solid #C03221;
     } */
-
-
 
 /* -----------------------------------------  /Footer ----------------------------------------- */
 /* -----------------------------------------  Media Queries ----------------------------------------- */
@@ -567,6 +569,14 @@ header {
         padding: 3px 0;
     }
 
+    /* testimonials */
+    /* move cards to the left */
+    .carousel-inner {
+        vertical-align: center;
+       
+    }
+}
+
     /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) and (max-width: 991.98px) {
     /* About */
@@ -623,4 +633,3 @@ header {
     }
     }
 
-    
