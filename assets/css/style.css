@@ -30,7 +30,7 @@ body {
 /* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
+    padding-left: 0px;
     
 } */
 
@@ -89,12 +89,12 @@ header {
 }
 
 .navbar {
-    background-color: #fcf5f6; 
+    background-color: #F2D0A4; 
 }
 
 .brand-logo {
     border-radius: 110px;
-    border: 4px solid #3F0005;
+    border: 4px solid #C03221;
     margin: 0;
     width: 110px;
     height: 110px;
@@ -136,7 +136,7 @@ header {
 }
 
 #nav-menu a:hover {  
-    border-bottom: 1px solid #3F0005;
+    border-bottom: 1px solid #C03221;
 }
 
 .list-inline li {
@@ -156,11 +156,11 @@ header {
     }
 
     .list-inline a i:hover {
-        color: #3F0005;
+        color: #C03221;
     }
 
     .active {
-        border-bottom: 1px solid #3F0005;
+        border-bottom: 1px solid #C03221;
     }
 
 /* -----------------------------------------  /Header and Customising Bootstrap Navbar ----------------------------------------- */
@@ -206,18 +206,18 @@ header {
     bottom: 0;
     top: 0;
     background: rgba(20, 71, 13, 0.7);
-    color: #fcf5f6;
+    color: #F7F7FF;
     width: 100%;
     padding: 20px;
     line-height: 2;   
 }
 
 .our-ingrdients {
-    background-color: #fcf5f6;
+    background-color: #167709;
     bottom: 0;
     top: 0;
     background: rgba(20, 71, 13, 0.8);
-    color: #fcf5f6;
+    color: #F7F7FF;
     width: 100%;
     padding: 20px 20px;
     line-height: 2;
@@ -227,15 +227,10 @@ header {
     padding: 0 30px;
 }
 
-
-
-
-
-
 /* -----------------------------------------  /About Section ----------------------------------------- */
 /* -----------------------------------------  Menu Section ----------------------------------------- */
 
-/* .section-heading {
+.section-heading {
     font-size: 2rem;
     text-align: center;
     font-weight: 500;
@@ -243,31 +238,40 @@ header {
     padding: 10px;
 }
 
+.section-heading-border {
+    border: 3px solid rgba(20, 71, 13, 0.8);
+    border-radius: 15px;
+    background: rgb(242, 208, 164);
+    padding: 10px 15px;
+}
+
 .menu-main-heading {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
+    text-decoration: underline;
+    text-decoration-color: #167709;
+}
+
+#menu-prices {
+    font-weight: 200;
 }
 
 .menu-item-name {
-    margin-left: 8em;
-}
-
-.menu-item-description {
-    margin-left: 8em;
+    margin-left: 42px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .menu-image {
-    width: 330px;
-    height: 140px;
-}
-
-.image-location {
-    margin-left: 20px;
-}
-
-.menu-image-shots {
-    width: 150px;
+    width: 200px;
     height: 100px;
+    margin-left: 52px;
+    text-align: center;
+}
+
+.menu-shots {
+    width:150px;
+    margin-left: 50px;
 }
 
 .menu-download {
@@ -278,7 +282,7 @@ header {
     font-size: 20px;
     color: #167709;
     padding-left: 3px;
-} */
+}
 
 
 /* -----------------------------------------  Menu Section ----------------------------------------- */
@@ -301,7 +305,7 @@ header {
 }
 
 .btn:hover {
-    color: #fff;
+    color: #F7F7FF;
     background: #167709;
     border-color: #167709;
     font-weight: 500;
@@ -395,7 +399,7 @@ header {
 /* -----------------------------------------  Contact Section ----------------------------------------- */
 
 .contact-form-send {
-    color: #fff;
+    color: #F7F7FF;
     background: #167709;
     border-color: #167709;
 }
@@ -433,7 +437,7 @@ header {
     
    footer {
        line-height: 30px;
-       background-color: #fcf5f6;
+       background-color: #F2D0A4;
    }
 
     #footer-info h5 {
@@ -457,7 +461,7 @@ header {
     }
 
     .menu-download-footer i:hover {
-        color: #3F0005;
+        color: #C03221;
     }
 
     .social-links li a i {
@@ -473,7 +477,7 @@ header {
     }
 
     .social-links li a i:hover {
-        color: #3F0005;
+        color: #C03221;
     }
 
     #footer-info {
@@ -491,11 +495,11 @@ header {
     }
 
     .contact-icons i:hover {
-        color: #3F0005;
+        color: #C03221;
     }
 
     .active {
-        border-bottom: 1px solid #3F0005;
+        border-bottom: 1px solid #C03221;
     } */
 
 
@@ -503,7 +507,30 @@ header {
 /* -----------------------------------------  /Footer ----------------------------------------- */
 /* -----------------------------------------  Media Queries ----------------------------------------- */
 
-@media (max-width: 991.98px) {
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+        /* fix space between opening hours and social links list on extra small devices */
+        .social-links {
+            margin-top: 0;
+            padding: 0;
+        }
+        /* footer */
+        #footer-info p {
+            margin-bottom: 3px;
+        }
+
+        #footer-info h5 {
+            margin-bottom: 3px;
+        }
+
+        .opening-hours-space p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    /* Medium devices (tablets, less than 992px) */
+    @media (max-width: 991.98px) {
 
     /* Offers */
     #student-nhs-discount-image {
@@ -528,13 +555,7 @@ header {
         padding: 3px 0;
     }
 
-    @media (max-width: 1199.98px) {
-
-    #nav-menu {
-    line-height: 30px;
-    }
-    }
-
+    /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) and (max-width: 991.98px) {
         /* About */
         /* to fix the text alignment in 'our story' */
@@ -553,3 +574,24 @@ header {
             font-size: 17px;
         }
     }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+
+        /* more space between columns on large devices */
+        .shots-column,
+        .breakfast-column {
+            margin-right: 0px;
+        }
+    }
+
+    /* Large devices (desktops, less than 1200px) */
+    @media (max-width: 1199.98px) {
+
+    #nav-menu {
+    line-height: 30px;
+    }
+    }
+
+    
+    
