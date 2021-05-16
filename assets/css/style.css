@@ -293,7 +293,7 @@ header {
 }
 
 .insta {
-    height: 350px;;
+    height: 300px;
     width: 350px;
     margin-top: 1px;
     
@@ -529,6 +529,18 @@ header {
         }
     }
 
+    /* Small devices (landscape phones, less than 768px) */
+    @media (max-width: 767.98px) { 
+        
+        /* gallery */
+        /* fix the size of images */
+        .insta {
+            height: 300px;
+            width: 300px;
+            margin-top: 1px;
+        } 
+    }
+
     /* Medium devices (tablets, less than 992px) */
     @media (max-width: 991.98px) {
 
@@ -557,32 +569,50 @@ header {
 
     /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) and (max-width: 991.98px) {
-        /* About */
-        /* to fix the text alignment in 'our story' */
-        .story-background-content h2 {
-            padding-top: 25px;
-            padding-bottom: 40px;
-        }
+    /* About */
+    /* to fix the text alignment in 'our story' */
+    .story-background-content h2 {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
 
-        .story-background-content p {
-            font-size: 17px;
-            padding: 0 40px;
-            line-height: 2.4;
-        }
+    .story-background-content p {
+        font-size: 17px;
+        padding: 0 40px;
+        line-height: 2.4;
+    }
 
-        .our-ingrdients p {
-            font-size: 17px;
-        }
+    .our-ingrdients p {
+        font-size: 17px;
+    }
+
+    /* gallery */
+    /* fix the size of images */
+    .insta {
+        height: 400px;
+        width: 400px;
+        margin-top: 3px;
+    } 
     }
 
     /* Large devices (desktops, 992px and up) */
     @media (min-width: 992px) {
 
-        /* more space between columns on large devices */
-        .shots-column,
-        .breakfast-column {
-            margin-right: 0px;
-        }
+    /* more space between columns on large devices */
+    .shots-column,
+    .breakfast-column {
+        margin-right: 0px;
+    }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* gallery */
+    /* fix the size of images */
+    .insta {
+        width: 350px;
+        margin-top: 1px;
+}
     }
 
     /* Large devices (desktops, less than 1200px) */
@@ -593,5 +623,4 @@ header {
     }
     }
 
-    
     
