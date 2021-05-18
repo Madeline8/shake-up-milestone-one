@@ -333,7 +333,7 @@ header {
     position: relative;
     width: 18rem;
     text-align: center;
-    margin-top: 3px 0 0 30px;
+    margin: 3px 0 0 30px;
     border: none;
     margin: 0 0 0 5em;
 }
@@ -541,6 +541,18 @@ header {
             width: 300px;
             margin-top: 1px;
         } 
+
+        /* testimonials */
+        /* center the cards */
+        .card {
+            position: relative;
+            width: 18rem;
+            text-align: center;
+            margin-top: 3px 0 0 30px;
+            border: none;
+            margin: 0 0 0 5em;
+            margin: 0 auto !important;
+        }
     }
 
     /* Medium devices (tablets, less than 992px) */
