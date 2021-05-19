@@ -320,14 +320,9 @@ header {
 /* -----------------------------------------  /Gallery Section ----------------------------------------- */
 /* -----------------------------------------  Testimonials Section ----------------------------------------- */
 
-
-/* #testimonials-section {
+#testimonials-section {
     padding: 5px 0px;
-} */
-
-/* .col-testimonials {
-    margin: 0 0 0 50%;
-} */
+}
 
 .card {
     position: relative;
@@ -335,42 +330,30 @@ header {
     text-align: center;
     margin: 3px 0 0 30px;
     border: none;
-    margin: 0 0 0 5em;
+    margin: 0 !important;
 }
 
-/* .card-text {
+.carousel-indicators li {
+    background-color:  #167709;
+}
+
+.card-text {
     margin-top: 5px;
     font-size: 12px;
     font-size: 1.1rem;;
-} */
+}
 
-/* .blockquote {
-    margin-top:8px;
-} */
+.blockquote {
+    margin-top: 8px;
+}
 
 .blockquote-footer {
     background: none;
 }
 
-/* .ratings i {
+.ratings i {
     color: #167709;
-} */
-
-/* .carousel-indicators li {
-    cursor: pointer;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    margin: 5px 0px 0px 12px;
-    color:#000;
-    background-color: #333;
-    position: relative;
-} */
-
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color:#C8C6C6;
-} */
+}
 
 /* -----------------------------------------  /Testimonials Section ----------------------------------------- */
 /* -----------------------------------------  Offers Section ----------------------------------------- */
@@ -531,6 +514,13 @@ header {
         }
     }
 
+    @media (min-width: 768px) {
+    .card {
+        width: 35rem;
+      
+    }
+
+
     /* Small devices (landscape phones, less than 768px) */
     @media (max-width: 767.98px) { 
         
@@ -550,8 +540,8 @@ header {
             text-align: center;
             margin-top: 3px 0 0 30px;
             border: none;
-            margin: 0 0 0 5em;
-            margin: 0 auto !important;
+            /* margin: 0 0 0 5em; */
+            margin: 0 aut !important;
         }
     }
 
@@ -598,6 +588,8 @@ header {
         padding-bottom: 40px;
     }
 
+}
+
     .story-background-content p {
         font-size: 17px;
         padding: 0 40px;
@@ -625,6 +617,7 @@ header {
     .breakfast-column {
         margin-right: 0px;
     }
+
     }
 
     /* Large devices (desktops, 992px and up) */
@@ -643,5 +636,14 @@ header {
     #nav-menu {
     line-height: 30px;
     }
+    }
+
+    @media (max-width: 300px) {
+
+    /* adjust the position on Galaxy Fold */
+        .card {
+        width: 15rem;
+        margin: 0;
+      
     }
 
