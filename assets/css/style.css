@@ -541,9 +541,16 @@ header {
             margin-top: 3px 0 0 30px;
             border: none;
             /* margin: 0 0 0 5em; */
-            margin: 0 aut !important;
+            margin: 0 auto !important;
+        }
+
+        /* footer */
+        /* increase the size of social link icons on small devices */
+        .list-inline a i {
+            font-size: 1.3rem !important;
         }
     }
+    
 
     /* Medium devices (tablets, less than 992px) */
     @media (max-width: 991.98px) {
