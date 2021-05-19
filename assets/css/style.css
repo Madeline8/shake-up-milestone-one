@@ -383,6 +383,30 @@ header {
 }
 
 /* -----------------------------------------  /Offers Section ----------------------------------------- */
+/* -----------------------------------------  Additional images section ----------------------------------------- */
+
+.add-images-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* .additional-images {
+    width: 16.66vw;
+    height: 20vh;
+} */
+
+.additional-images {
+    width: 50%;
+    max-height: 300px;
+}
+
+.additional-images-column {
+    padding:0;
+    margin: 0;
+}
+
+/* -----------------------------------------  /Additional images section ----------------------------------------- */
 /* -----------------------------------------  Contact Section ----------------------------------------- */
 
 .contact-form-send {
@@ -549,6 +573,11 @@ header {
         .list-inline a i {
             font-size: 1.3rem !important;
         }
+
+        .additional-images {
+            width: 50%;
+            max-height: 300px;
+        }
     }
     
 
@@ -595,6 +624,12 @@ header {
         padding-bottom: 40px;
     }
 
+    /* adjust size and positioning of additional images */
+    .additional-images {
+    width: 100%;
+    height: 140px;
+    }
+
 }
 
     .story-background-content p {
@@ -625,6 +660,12 @@ header {
         margin-right: 0px;
     }
 
+    /* set the size of additional images */
+    .additional-images {
+        width: 100%;
+        height: 180px;
+    }
+
     }
 
     /* Large devices (desktops, 992px and up) */
@@ -653,4 +694,12 @@ header {
         margin: 0;
       
     }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .additional-images {
+            max-width: 100% !important;
+            height: 280px !important;
+}
+}
 
