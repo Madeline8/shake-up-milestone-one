@@ -23,9 +23,7 @@ html {
 body {
     color: #3c3939;
     font-size: 16px;
-    font-family: 'Zilla Slab', 'Roboto', sans-serif;
-    /* background-image: url("/assets/images/menu-background-image.jpg");
-    background-size: cover;   */
+    font-family: 'Zilla Slab', 'Roboto', sans-serif;  
 }
 
 h1, h2, h3, h4, h5, h6 { 
@@ -75,11 +73,62 @@ p {
     text-decoration: none;
 }
 
+/* ----------------------------------------- Main image under navigation ----------------------------------------- */
+
+/* used this resource: https://css-tricks.com/perfect-full-page-background-image/ */
 #main-page-image {
-    height: 500px;
-    width: 100%;
-    background: url("/assets/images/green-shake-main-page-md.jpg") no-repeat center center;
+height: 70vh;
+width: 100%;
+background: url("/assets/images/image-main-page1.jpg") no-repeat center center fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+
+animation-name: image-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
 }
+
+#main-picture {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes image-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+#shake-up-motto,
+#shake-up-motto h3 {
+    color: #F7F7FF;
+}
+
+#shake-up-motto {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 250px;
+    height: 150px;
+    padding-top: 30px; 
+    padding-left: 10px;
+    background-color: rgba(192, 50, 33, .7);
+    top: 150px;
+    left: 30px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+/* ----------------------------------------- /Main image under navigation ----------------------------------------- */
+
+
  
 /* ----------------------------------------- /Set Defaults ----------------------------------------- */
 /* ----------------------------------------- Header and Customising Bootstrap Navbar ----------------------------------------- */
@@ -396,6 +445,9 @@ header {
 }
 
 /* -----------------------------------------  /Additional images section ----------------------------------------- */
+/* Google Map */
+
+/* /Google Map */
 /* -----------------------------------------  Contact Section ----------------------------------------- */
 
 .contact-form-send {
