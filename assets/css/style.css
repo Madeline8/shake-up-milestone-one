@@ -320,14 +320,18 @@ header {
 
 .menu-image {
     width: 200px;
-    height: 100px;
+    height: 200px;
     margin-left: 52px;
     text-align: center;
 }
 
 .menu-shots {
-    width:150px;
-    margin-left: 50px;
+    /* width:150px;
+    margin-left: 50px; */
+    width: 200px;
+    height: 200px;
+    margin-left: 52px;
+    text-align: center;
 }
 
 .menu-download {
@@ -686,7 +690,6 @@ header {
     }
 
 }
-
     .story-background-content p {
         font-size: 17px;
         padding: 0 40px;
