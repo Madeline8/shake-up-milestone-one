@@ -103,6 +103,7 @@ background-size: cover;
     width: 100%;
     overflow: hidden;
     position: relative;
+    background-size: cover;
 }
 
 @-webkit-keyframes image-zoom {
@@ -116,20 +117,19 @@ background-size: cover;
     }
 }
 
-}
-
-#shake-up-motto,
-#shake-up-motto h3 {
-    color: #F7F7FF;
-    font-size: 1.8rem;
+.main-picture 
+#shake-up-motto
+h3 {
+    color: #F2D0A4;
+    font-size: 1.5rem;
 }
 
 #shake-up-motto {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 3px;
-    width: 250px;
-    height: 150px;
+    width: 230px;
+    height: 130px;
     padding-top: 30px; 
     padding-left: 10px;
     background-color: rgba(192, 50, 33, .7);
@@ -739,8 +739,9 @@ header {
     width: auto;
 }
     #main-page-image {
-        height: 60vh;
+        height: 70vh;
         width: 100%;
+        background-size: cover;
     }
 
     /* Large devices (desktops, 992px and up) */
