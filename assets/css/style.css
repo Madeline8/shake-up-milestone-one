@@ -83,7 +83,7 @@ p {
 #main-page-image {
 height: 70vh;
 width: 100%;
-background: url("../images/image-main-page1.jpg") no-repeat center center fixed;
+background: url("../images/image-main-page4.jpg") no-repeat center center fixed;
 background-size: cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -111,20 +111,11 @@ background-size: cover;
                 transform: scale(1);
     }
     to {
-        -webkit-transform: scale(1.2);
-                transform: scale(1.2);
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
     }
 }
 
-@keyframes image-zoom {
-    from {
-        -webkit-transform: scale(1);
-                transform: scale(1);
-    }
-    to {
-        -webkit-transform: scale(1.2);
-                transform: scale(1.2);
-    }
 }
 
 #shake-up-motto,
@@ -747,6 +738,9 @@ header {
     height: 180px;
     width: auto;
 }
+    #main-page-image {
+        height: 60vh;
+        width: 100%;
     }
 
     /* Large devices (desktops, 992px and up) */
