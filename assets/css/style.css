@@ -23,7 +23,8 @@ html {
 body {
     color: #3c3939;
     font-size: 16px;
-    font-family: 'Zilla Slab', 'Roboto', sans-serif; 
+    font-family: 'Zilla Slab', 'Roboto', sans-serif;
+    background-color: #e7f1e6;
 }
 }
 
@@ -278,13 +279,16 @@ header {
 /* -----------------------------------------  /About Section ----------------------------------------- */
 /* -----------------------------------------  Menu Section ----------------------------------------- */
 
-/* .story-second-row {
-    height: 70vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-} */
 
+.menu-container {
+    background-color: rgba(192, 50, 33, .65);
+    border-radius: 15px;;
+}
+
+#menu-section .section-heading span {
+    background-color: rgba(192, 50, 33, .65);
+    color: #F7F7FF;
+}
 
 .section-heading {
     font-size: 2rem;
@@ -305,17 +309,23 @@ header {
     text-align: center;
     margin-bottom: 35px;
     text-decoration: underline;
-    text-decoration-color: #167709;
+    color: #F7F7FF;
 }
 
 #menu-prices {
     font-weight: 200;
+    color: #F7F7FF;
 }
 
 .menu-item-name {
     margin-left: 42px;
     margin-top: 10px;
     text-align: center;
+    color: #F7F7FF;
+}
+
+.menu-item-description {
+    color: #F7F7FF;
 }
 
 .menu-image {
@@ -326,8 +336,6 @@ header {
 }
 
 .menu-shots {
-    /* width:150px;
-    margin-left: 50px; */
     width: 200px;
     height: 200px;
     margin-left: 52px;
@@ -336,11 +344,12 @@ header {
 
 .menu-download {
     margin-left: 8rem;
+    color: #F7F7FF;
 }
 
 .menu-download i {
     font-size: 20px;
-    color: #167709;
+    color: #F7F7FF;;
     padding-left: 3px;
 }
 
