@@ -81,21 +81,21 @@ p {
 
 /* used this resource: https://css-tricks.com/perfect-full-page-background-image/ */
 #main-page-image {
-height: 70vh;
-width: 100%;
-background: url("../images/image-main-page4.jpg") no-repeat center center fixed;
-background-size: cover;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background: url("../images/image-main-page4.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
--webkit-animation-name: image-zoom;
+    -webkit-animation-name: image-zoom;
 
-        animation-name: image-zoom;
--webkit-animation-duration: 5s;
-        animation-duration: 5s;
--webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+            animation-name: image-zoom;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
 }
 
 #main-picture {
