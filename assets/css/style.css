@@ -85,7 +85,7 @@ p {
     width: 100%;
     background: url("../images/image-main-page4.jpg") no-repeat center center fixed;
     background-size: cover;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 
@@ -95,18 +95,18 @@ p {
     -webkit-animation-duration: 5s;
             animation-duration: 5s;
     -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+            animation-fill-mode: forwards; */
 }
 
-#main-picture {
+/* #main-picture {
     height: 70vh;
     width: 100%;
     overflow: hidden;
     position: relative;
     background-size: cover;
-}
+} */
 
-@-webkit-keyframes image-zoom {
+/* @-webkit-keyframes image-zoom {
     from {
         -webkit-transform: scale(1);
                 transform: scale(1);
@@ -115,7 +115,7 @@ p {
         -webkit-transform: scale(1.1);
                 transform: scale(1.1);
     }
-}
+} */
 
 .main-picture 
 #shake-up-motto
@@ -653,7 +653,6 @@ header {
             width: 50%;
         }
     } 
-    
 
     /* Medium devices (tablets, less than 992px) */
     @media (max-width: 991.98px) {
