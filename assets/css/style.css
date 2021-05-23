@@ -228,7 +228,14 @@ header {
 
 #about {
     background-color: rgba(147, 183, 143, 0.7);
-} 
+}
+
+.anchor {
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -115px; /*same height as header*/
+    visibility: hidden;
+}
 
 .about-container h2 {
     font-size: 1.7rem;
