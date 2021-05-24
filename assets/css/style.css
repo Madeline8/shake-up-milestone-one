@@ -621,6 +621,15 @@ header {
             margin: 0;
             padding: 0;
         }
+
+        /* change image visibility on small devices  */
+        #main-page-image {
+            height: 70vh;
+            width: 100%;
+            background: url("../images/healthy-green-shake.jpg") no-repeat center center fixed;
+            background-size: cover;
+            background-color: #C03221;
+        }
     }
     
 
@@ -654,7 +663,7 @@ header {
         #main-page-image {
             height: 70vh;
             width: 100%;
-            background: url("../images/main-image-under-navigation.jpg") no-repeat center center fixed;
+            background: url("../images/healthy-green-shake.jpg") no-repeat center center fixed;
             background-size: cover;
             background-color: #C03221;
         }
