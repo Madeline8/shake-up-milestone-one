@@ -83,7 +83,7 @@ p {
 #main-page-image {
     height: 70vh;
     width: 100%;
-    background: url("../images/image-main-page4.jpg") no-repeat center center fixed;
+    background: url("../images/main-image-under-navigation.jpg") no-repeat center center fixed;
     background-size: cover;
     /* -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -654,7 +654,7 @@ header {
         #main-page-image {
             height: 70vh;
             width: 100%;
-            background: url("../images/image-main-page4.jpg") no-repeat center center fixed;
+            background: url("../images/main-image-under-navigation.jpg") no-repeat center center fixed;
             background-size: cover;
             background-color: #C03221;
         }
@@ -666,7 +666,7 @@ header {
         #main-page-image {
             height: 70vh;
             width: 100%;
-            background: url("../images/image-main-page1.jpg") no-repeat center center fixed;
+            background: url("../images/main-image-under-navigation.jpg") no-repeat center center fixed;
             background-size: cover;
         }
 
