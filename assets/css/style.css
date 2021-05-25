@@ -468,18 +468,13 @@ header {
     text-align: center;
 }
 
-#link-to-more-offers {
-    margin-top: 8px;
-}
-
-#link-to-more-offers a {
-    color: #167709;
-    text-decoration: none;
-}
-
 .offers-image {
     border-radius: 50%;
     padding: 5px;
+}
+
+.row-offers {
+    margin-bottom: 25px;
 }
 
 /* -----------------------------------------  /Offers Section ----------------------------------------- */
