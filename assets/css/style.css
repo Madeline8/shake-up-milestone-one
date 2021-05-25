@@ -81,11 +81,11 @@ p {
 
 /* used this resource: https://css-tricks.com/perfect-full-page-background-image/ */
 #main-page-image {
-    height: 70vh;
+    height: 75vh;
     width: 100%;
-    background: url("../images/main-image-under-navigation.jpg") no-repeat center center fixed;
+    background: url("../images/main-screen-picture-berry-shake.jpg") no-repeat center center fixed;
     background-size: cover;
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 
@@ -95,18 +95,18 @@ p {
     -webkit-animation-duration: 5s;
             animation-duration: 5s;
     -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; */
+            animation-fill-mode: forwards;
 }
 
-/* #main-picture {
+#main-picture {
     height: 70vh;
     width: 100%;
     overflow: hidden;
     position: relative;
     background-size: cover;
-} */
+}
 
-/* @-webkit-keyframes image-zoom {
+@-webkit-keyframes image-zoom {
     from {
         -webkit-transform: scale(1);
                 transform: scale(1);
@@ -115,7 +115,7 @@ p {
         -webkit-transform: scale(1.1);
                 transform: scale(1.1);
     }
-} */
+}
 
 .main-picture 
 #shake-up-motto
@@ -654,7 +654,7 @@ header {
         #main-page-image {
             height: 70vh;
             width: 100%;
-            background: url("../images/healthy-green-shake.jpg") no-repeat center center fixed;
+            background: url("../images/main-screen-picture-berry-shake.jpg") no-repeat center center fixed;
             background-size: cover;
             /* https://stackoverflow.com/questions/16785085/background-image-not-displaying-correctly-in-ios */
             -webkit-transform: translateZ(0); 
@@ -666,9 +666,9 @@ header {
     @media (min-width: 768px) {
     /* change image visibility on small devices */
         #main-page-image {
-            height: 70vh;
+            height: 75vh;
             width: 100%;
-            background: url("../images/main-image-under-navigation.jpg") no-repeat center center fixed;
+            background: url("../images/main-screen-picture-berry-shake.jpg") no-repeat center center fixed;
             background-size: cover;
         }
 
@@ -765,6 +765,14 @@ header {
         height: 70vh;
         width: 100%;
         background-size: cover;
+    }
+
+    #main-page-image {
+    height: 75vh;
+    width: 100%;
+    background: url("../images/main-screen-picture-berry-shake.jpg") no-repeat center center fixed;
+    background-size: cover;  
+    }
     }
 
     /* Large devices (desktops, 992px and up) */
