@@ -77,6 +77,10 @@ p {
 .dropdown-menu {
     background-color: #F2D0A4;
 }
+
+.dropdown-menu a:hover {
+    background-color: #F2D0A4;
+}
 /* ----------------------------------------- Main image under navigation ----------------------------------------- */
 
 /* used this resource: https://css-tricks.com/perfect-full-page-background-image/ */
@@ -509,6 +513,10 @@ header {
 
 .image-contact {
     opacity: 0.5;
+}
+
+.send-button {
+    margin-top: 10px;
 }
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_text */
