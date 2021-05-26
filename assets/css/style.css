@@ -421,9 +421,6 @@ header {
     margin: 0 !important;
 }
 
-.card-body {
-    height: 500px;
-}
 .carousel-indicators li {
     box-sizing: content-box;
     background-color: #3c3939 !important;
@@ -664,7 +661,11 @@ header {
             border: none;
             margin: 0 auto !important;
         }
-        /* footer */
+
+        .card-body {
+        height: 400px;
+        }
+            /* footer */
         /* increase the size of social link icons on small devices */
         .list-inline a i {
             font-size: 1.3rem !important;
