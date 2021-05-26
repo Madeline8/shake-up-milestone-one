@@ -421,6 +421,9 @@ header {
     margin: 0 !important;
 }
 
+.card-body {
+    height: 500px;
+}
 .carousel-indicators li {
     box-sizing: content-box;
     background-color: #3c3939 !important;
@@ -659,7 +662,6 @@ header {
             text-align: center;
             margin: 3px 0px 0px 30px;
             border: none;
-            /* margin: 0 0 0 5em; */
             margin: 0 auto !important;
         }
         /* footer */
