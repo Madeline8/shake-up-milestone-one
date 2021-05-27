@@ -90,8 +90,8 @@ p {
             animation-name: image-zoom;
     -webkit-animation-duration: 5s;
             animation-duration: 5s;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
 }
 
 #main-picture {
