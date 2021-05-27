@@ -250,9 +250,14 @@ header {
     vertical-align: middle;
 }
 
-.story-image {
+/* .story-image {
     width: 100%;
-    background-repeat: repeat-x;
+} */
+
+.story-image,
+.british-ingredients-image,
+.story-picture {
+    width: 100%;
 }
 
 .our-story {
