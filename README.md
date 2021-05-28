@@ -7,9 +7,11 @@
 ## 1. USER EXPERIENCE (UX)
 
 **1.1. STRATEGY**
+
 The main goal of this website is to promote Shake Up which sells healthy and tasty shakes mainly alongside a few other secondary products; to keep existing customers engaged and attract new customers. The overall objective of this website is to create an established brand and as a result to achieve more sales.
 
 **1.2. SCOPE**
+
 This section determines what a potential or existing customer expect from interaction with the website.
 Please find the scenarios of actions each type of visitor below wishes to take, depending whether they are first time visitors, returning or a frequent customers.
 
@@ -100,6 +102,7 @@ I  selected complimentary colours, in order for the users to have a more excitin
 #C03221 (International Orange colour) was used on hovered icons. Similar to a Lava Red colour, it brings more warms and vibrancy onto the website. 
 
 **Language / Tone**
+
 I wanted it to be casual and fun, hence the decision about implementing fun descriptions under the Shake Menu items. 
 
 ## 2. FEATURES
@@ -115,8 +118,8 @@ The navigation bar is toggled on small devices.
 
 **The Footer**  includes:
 - 'Shake Up' name and a short description.
-- Icon to download a menu
-- Opening Hours
+- Icon to download a menu.
+- Opening Hours.
 - Contact Details: Address of the place, phone number as well as email address.
 - Links to social media, that are also in the header. As this is a fictional shake bar, the links are taking the user to the main page of each of the social media platforms. 
 
@@ -187,7 +190,8 @@ If this was a website promoting a real place, I would implement the following fe
 
 ## 4. TESTING
 
-The testing process can be found [here](assets/TESTING.md).
+Please click [here](TESTING.md) to see the testing information. 
+
 
 ## 5. DEPLOYMENT
 
