@@ -26,14 +26,21 @@ I have also received lots of warnings about an unknown vendor extension.  After 
 
 I used [https://www.responsivedesignchecker.com/](https://www.responsivedesignchecker.com/) as well as Google Chrome DevTools [https://developer.chrome.com/docs/devtools/](https://developer.chrome.com/docs/devtools/) to make sure all layout is correct and the user has a pleasant experience when navigating through the page.
 
- -- Pixel 2XL - all works well.
--- iPhone5/SE - everything worked well except of one minor styling issue - carousel controls (arrows) were slightly too close to testimonial's content, as per the image below:
--- ![Testimonial card - controls](assets/images/readme-images/testimonial-cards-controls-iphone5-se.png)
--- iPhone 6/7/8 - all works well.
--- iPhone 6/7/8 Plus - all works well.
--- iPhone X - a hamburger is positioned slightly too far to the right. This is because of the animation. I changed 	the animation of the main page image, under the navigation, to 'backwards' instead of 'forwards'. It fixed the issue. 
--- iPad - all works well.
--- iPad Pro - all works well.
+- Pixel 2XL - all works well.
+
+- iPhone5/SE - everything worked well except of one minor styling issue - carousel controls (arrows) were slightly too close to testimonial's content, as per the image below:
+
+    ![Testimonial card - controls](assets/images/readme-images/testimonial-cards-controls-iphone5-se.png)
+
+- iPhone 6/7/8 - all works well.
+
+- iPhone 6/7/8 Plus - all works well.
+
+- iPhone X - a hamburger is positioned slightly too far to the right. This is because of the animation. I changed 	the animation of the main page image, under the navigation, to 'backwards' instead of 'forwards'. It fixed the issue. 
+
+- iPad - all works well.
+
+- iPad Pro - all works well.
 
 All links on the page have been manually tested. They will open in a new tab using ‘target=”_blank”.
 
