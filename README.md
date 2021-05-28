@@ -68,20 +68,20 @@ Wireframes were firstly sketched on a whiteboard. This method helped with brains
 
 Please find the links to sketched wireframes below:
 
-- [Header and footer on desktop, whiteboard wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/whiteboard-header-and-footer-desktop.jpg)
-- [Header and footer on mobile, whiteboard wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/whiteboard-header-and-footer-mobile.jpg)
-- [About on mobile and desktop, whiteboard wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/whiteboard-about-desktop-and-mobile.jpg)
-- [Menu on mobile and desktop, whiteboard wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/whiteboard-menu-desktop-and-mobile.jpg)
-- [Gallery on mobile and desktop, whiteboard wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/whiteboard-insta-desktop-and-mobile.jpg)
-- [Testimonials on mobile and desktop, whiteboard wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/whiteboard-reviews-desktop-and-mobile.jpg)
-- [Offers on mobile and desktop, whiteboard wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/whiteboard-offers-desktop-and-mobile.jpg)
-- [Contact on mobile and desktop, whiteboard wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/whiteboard-contact-desktop-and-mobile.jpg)
+- [Header and footer on desktop, whiteboard wireframe](assets/images/wireframes/whiteboard-header-and-footer-desktop.jpg).
+- [Header and footer on mobile, whiteboard wireframe](assets/images/wireframes/whiteboard-header-and-footer-mobile.jpg)
+- [About on mobile and desktop, whiteboard wireframe](assets/images/wireframes/whiteboard-about-desktop-and-mobile.jpg)
+- [Menu on mobile and desktop, whiteboard wireframe](assets/images/wireframes/whiteboard-menu-desktop-and-mobile.jpg)
+- [Gallery on mobile and desktop, whiteboard wireframe](assets/images/wireframes/whiteboard-insta-desktop-and-mobile.jpg)
+- [Testimonials on mobile and desktop, whiteboard wireframe](assets/images/wireframes/whiteboard-reviews-desktop-and-mobile.jpg)
+- [Offers on mobile and desktop, whiteboard wireframe](assets/images/wireframes/whiteboard-offers-desktop-and-mobile.jpg)
+- [Contact on mobile and desktop, whiteboard wireframe](assets/images/wireframes/whiteboard-contact-desktop-and-mobile.jpg)
 
 [Balsamiq](https://balsamiq.com/)  (provide hyperlink) was the tool used in this project to finalise previously sketched wireframes. Below are low fidelity wireframes.
 
-- [Mobile wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/balsamiq-mobile-wireframe.pdf)
-- [Tablet wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/balsamiq-tablet-wireframe.pdf)
-- [Desktop wireframe](/workspace/shake-up-milestone-one/assets/images/wireframes/balsamiq-desktop-wireframe.pdf)
+- [Mobile wireframe](assets/images/wireframes/balsamiq-mobile-wireframe.pdf)
+- [Tablet wireframe](assets/images/wireframes/balsamiq-tablet-wireframe.pdf)
+- [Desktop wireframe](assets/images/wireframes/balsamiq-desktop-wireframe.pdf)
 
 Note: Throughout the design phase some elements of the design changed to allow for a better user experience; i.e tablet wireframe included, however with a very few differences in comparison with the mobile wireframe – difference in size of objects.
 
