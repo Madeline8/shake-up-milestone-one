@@ -14,10 +14,10 @@ html {
 }
 
 body {
+    background-color: #e7f1e6;
     color: #3c3939;
     font-size: 16px;
     font-family: 'Zilla Slab', 'Roboto', sans-serif;
-    background-color: #e7f1e6;
 }
 
 h1, h2, h3, h4, h5, h6 { 
@@ -78,10 +78,10 @@ p {
 
 /* used this resource: https://css-tricks.com/perfect-full-page-background-image/ */
 #main-page-image {
-    height: 75vh;
-    width: 100%;
     background: url("../images/main-screen-picture-berry-shake.jpg") no-repeat center center fixed;
     background-size: cover;
+    height: 75vh;
+    width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -95,11 +95,12 @@ p {
 }
 
 #main-picture {
+    background-size: cover;
     height: 70vh;
-    width: 100%;
     overflow: hidden;
     position: relative;
-    background-size: cover;
+    width: 100%;
+    
 }
 
 @-webkit-keyframes image-zoom {
@@ -121,18 +122,19 @@ h3 {
 }
 
 #shake-up-motto {
+    border-radius: 15px;
+    background-color: rgba(192, 50, 33, .7);
     font-size: 130%;
-    text-transform: uppercase;
     letter-spacing: 3px;
-    width: 230px;
     height: 130px;
     padding-top: 30px; 
     padding-left: 10px;
-    background-color: rgba(192, 50, 33, .7);
-    top: 150px;
     left: 30px;
     position: absolute;
-    border-radius: 15px;
+    text-transform: uppercase;
+    top: 150px;
+    width: 230px;
+    
 }
 /* ----------------------------------------- /Main image under navigation ----------------------------------------- */
 
