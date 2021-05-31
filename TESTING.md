@@ -4,8 +4,13 @@
 
 I used [W3C Markup](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/) by coping the contents from my index.html and style.css file and pasting into ‘Validate by Direct Input’ field.
 
-![HTML Validation Service - Results](assets/images/readme-images/html-validation.png)
-I considered and tried adhering to what the validator suggests, however, I decided to ignore it in the end. When I was changing the size to % or px, the map did not take a full horizontal space on the page - it was too narrow. When I was testing my page the map looked correct on all devices, hence why I have decided to leave it as it is. 
+![HTML Validation Service - Results](assets/images/readme-images/html-validation-image.png)
+Firstly, I tried fixing this error by changing the size to % or px, however, the map did not take a full horizontal space on the page - it was too narrow.
+
+In the following resource https://www.drupal.org/project/youtube/issues/2953495 I read that HTML5 no longer supports percentages on iframe tags. I read more about the inline frame element on here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-width. Lastly, I deleted the `width="100%"` from the html file, and in css I specified the width of iframe in my CSS file: `iframe {width: 100%;}`. This has fixed the error. Please see the screenshot below.
+
+![HTML Validation Service - Results](assets/images/readme-images/html-validator1.png)
+
 
 Before validating my CSS file, I used [https://autoprefixer.github.io/](https://autoprefixer.github.io/) - it is a ‘Autoprefixer is a PostCSS plugin which parses CSS and adds vendor prefixes’.
 
@@ -68,11 +73,13 @@ https://stackoverflow.com/questions/39456030/internet-explorer-responsive-images
 
 **First Time Visitor Goals**
 - As a First Time Visitor, I want to understand immediately what the website offers.
-	- As soon as the user enters the website, they can see a 'Shake Up' logo, that has got a shake on it. The header also includes a main image of shake, with 'Shake Up' motto. The website was designed in the way that even if user doesn't click on the 'About' section, they can see that 'Our Story' comes up next (the right vh was set for the main image under the header), where they can read what the place offers. 
+	- As soon as the user enters the website, they can see a 'Shake Up' logo, that has got a shake on it. The header also includes a main image of shake, with 'Shake Up' motto. The website was designed in the way that even if user doesn't click on the 'About' section, they can see that 'Our Story' comes up next (the right vh was set for the main image under the header), where they can read what the place offers.
+
 	![Navigation bar / header](assets/images/readme-images/header-readme.png)
 
 - As a First Time Visitor, I want to read about the company and learn more about the products.
 	- In 'About' section, user can read about the story of the place, as well as understand more about the ingredients they use, and where they are coming from.
+
 	![About Section](assets/images/readme-images/about.png)
 - As a First Time Visitor, I want to see the shake bar menu so I am prepared for my first visit.
 	- User can access the menu on the website by either clicking on the 'Menu' link in the navbar, or if they prefer to scroll down the page, they will find the 'Menu' section right after 'About' section.
@@ -151,7 +158,7 @@ https://stackoverflow.com/questions/39456030/internet-explorer-responsive-images
 - As a Frequent Visitor, I want to be notified if there are any product launches, changes to the menu, or any other updates.
 	-  User can subscribe to the newsletter by ticking the option to 'Subscribe to our Newsletter' in the contact form. Once subscribed, they would be receiving new offers, info about new shake recipes, or any events coming up.
 
-    ![Subscribe Option](assets/images/readme-images/subscribe.png)
+        ![Subscribe Option](assets/images/readme-images/subscribe.png)
 - As a Frequent Visitor, I want to be engaged and make my contribution towards the product launches / I want my opinion to count.
 	- User can leave their feedback or suggestions in the ‘contact’ section’. Also, by subscribing for the newsletter, they get notification about product launches or new offers.
 	

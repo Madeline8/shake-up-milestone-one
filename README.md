@@ -1,4 +1,4 @@
-## SHAKE UP! ##
+ # SHAKE UP!
 
 ![Shake-up on different devices](assets/images/readme-images/amiresponsive-images.png)
 
@@ -209,9 +209,9 @@ This site has been directly deployed from the master branch (steps in the follow
 1. Go to the main page of the repository on Github.
 2. Click 'Clone or download'.
 3. Clone with HTTPS, and copy the URL. 
-4. Open repo or create a new repo.
-5. Open terminal.
-6. Type `git clone` and paste [https://madeline8.github.io/shake-up-milestone-one/](https://madeline8.github.io/shake-up-milestone-one/)
+4. Open terminal.
+5. Navigate to any location/directory of your choice.
+6. Type `git clone` and paste [https://madeline8.github.io/shake-up-milestone-one/](https://madeline8.github.io/shake-up-milestone-one/).
  
 More about the cloning process can be found in: [https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
